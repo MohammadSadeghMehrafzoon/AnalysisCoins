@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardCoin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="14dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewItem"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_launcher_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewCoinName"
+        style="@style/CoinBitText.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@id/imageViewItem"
+        android:text="BTC" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtTaghir"
+        style="@style/CoinBitText.Body1Alternate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrice"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/imageViewItem"
+        android:text="CoinBase"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewPrice"
+        style="@style/CoinBitText.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_alignParentEnd="true"
+        android:text="$3.185" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewMarketCap"
+        style="@style/CoinBitText.Body1Alternate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrice"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:text="$2.4 million" />
+
+</RelativeLayout>
+
+

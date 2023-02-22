@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AnalysisCoins</string>
+
+
+    <string name="period_1h">12H</string>
+    <string name="period_1day">1D</string>
+    <string name="period_1week">1W</string>
+    <string name="period_1month">1M</string>
+    <string name="period_3month">3M</string>
+    <string name="period_1year">1Y</string>
+    <string name="period_all">ALL</string>
+    <string name="title_activity_coin">CoinActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="network_failure">Network Failure</string>
+    <string name="conversion_error">Conversion Error</string>
+
+
+</resources>
