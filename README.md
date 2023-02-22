@@ -7,3 +7,4 @@
 4. Kotlin Coroutine for Async Programming
 5. picasso for Image Loading
 6. Kotin Extentions
+7. shimmer Effect For load data
